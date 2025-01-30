@@ -1,0 +1,3 @@
+
+fivector <- sort(fivector)
+fivector
