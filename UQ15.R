@@ -1,8 +1,4 @@
 
-fahrenheit_to_celsius <- function(F) {
-  C <- (5 / 9) * (F - 32)
-  C 
-}
-fahrenheit_value <- 98.6
-celsius_value <- fahrenheit_to_celsius(fahrenheit_value)
-celsius_value
+fahrenheit_values <- c(45, 77, 20, 19, 101, 120, 212)
+celsius_values <- (5 / 9) * (fahrenheit_values - 32)
+celsius_values
